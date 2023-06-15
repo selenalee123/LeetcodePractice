@@ -1,3 +1,16 @@
+"""
+LeetCode Problem: Min Cost Climbing Stairs
+LeetCode Link: https://leetcode.com/problems/min-cost-climbing-stairs/
+
+Problem Description:
+You are climbing a staircase. It takes n steps to reach the top.
+
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+
+Solution:
+"""
+
+
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
         n = len(cost)
